@@ -27,3 +27,4 @@ export const CN_MASKS: BuiltinMask[] = [
     builtin: true,
     createdAt: 1688899480510,
   },
+];
