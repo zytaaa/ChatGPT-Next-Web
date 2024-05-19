@@ -1,5 +1,5 @@
 import { Mask } from "../store/mask";
-import { EN_MASKS } from "./ru";
+import { RU_MASKS } from "./ru";
 
 import { type BuiltinMask } from "./typing";
 export { type BuiltinMask } from "./typing";
