@@ -2,7 +2,7 @@ import { BuiltinMask } from "./typing";
 
 export const RU_MASKS: BuiltinMask[] = [
   {
-    avatar: "1f5bc-fe0f",
+    avatar: "U+1F916",
     name: "Эффективные объяснения, примеры, аналогии",
     context: [
       {
