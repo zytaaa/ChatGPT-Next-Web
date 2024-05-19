@@ -50,7 +50,7 @@ export function AuthPage() {
           );
         }}
       />
-        </>
+   </>
       ) : null}
 
       <div className={styles["auth-actions"]}>
