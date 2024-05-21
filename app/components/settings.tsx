@@ -835,7 +835,26 @@ export function Settings() {
               text={Locale.Settings.Prompt.Edit}
               onClick={() => setShowPromptModal(true)}
             />
-           </ListItem>
+          </ListItem>
+        </List>
+
+        <List id={SlotID.CustomModel}>
+          {showAccessCode && (
+            <ListItem
+              title={Locale.Settings.Access.AccessCode.Title}
+              subTitle={Locale.Settings.Access.AccessCode.SubTitle}
+            >
+              <PasswordInput
+                value={accessStore.accessCode}
+                type="text"
+                placeholder={Locale.Settings.Access.AccessCode.Placeholder}
+                onChange={(e) => {
+                  accessStore.update(
+                    (access) => (access.accessCode = e.currentTarget.value),
+                  );
+                }}
+              />
+            </ListItem>
           )}
 
           {!accessStore.hideUserApiKey && (
