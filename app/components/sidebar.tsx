@@ -158,7 +158,7 @@ export function SideBar(props: { className?: string }) {
            MaarGPT
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          Индивидуальный проект ученика 10-го класса Саввинова А.П.
+          Проект ученика 11-го класса Маарской СОШ Саввинова А.П.
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
